@@ -62,7 +62,7 @@ const createLaunchDate = function (
 
   return launchDate.getTime();
 };
-const launchDate__seconds = createLaunchDate(2022, 0, 1, 0, 0, 1); // in milliseconds
+const launchDate__seconds = createLaunchDate(2022, 10, 22, 10, 0, 0); // in milliseconds
 
 const displayTime = function (days, hours, mins, secs) {
   DAY.textContent = days.toString().padStart(2, '0');
