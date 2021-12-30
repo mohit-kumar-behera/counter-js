@@ -1,0 +1,112 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main {
+	background: #fff;
+	padding: 3rem;
+}
+.main h1 {
+	font-weight: bold;
+}
+
+.countdown {
+	width: 100%;
+	height: 100vh;
+	padding: 2rem;
+	background: #e2e2e2;
+}
+.countdown .row {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.left {
+	text-align: center;
+}
+.right {
+	text-align: left;
+}
+
+.left {
+	border-right: 0.5px solid grey;
+}
+
+.main-img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.heading,
+.sub-heading {
+	font-weight: bold;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+
+.heading {
+	text-transform: uppercase;
+	color: #0099A8;
+}
+.sub-heading {
+	text-transform: capitalize;
+	color: #212529;
+}
+.content {
+	margin: 3.5rem 0;
+}
+
+.reverse-timer {
+	width: 100%;
+	padding: 1rem 2rem;
+}
+
+.timer-box {
+	width: 85px;
+	height: auto;
+	padding: 0.7rem;
+	background: #212529;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.timer-box:not(:last-child) {
+	margin-right: 2rem;
+}
+
+.key {
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+.value {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.shop-btn {
+	background: #0099A8;
+	color: #fff;
+	width: 100%;
+	font-size: 1.5rem;
+	padding: 0.7rem 2rem;
+	letter-spacing: 1px;
+	transition: all 0.4s ease;
+}
+.shop-btn:hover {
+	color: #fff;
+	filter: brightness(90%);
+}
+.shop-btn:focus {
+	box-shadow: none;
+}
+.shop-btn:active {
+	transform: translate(1px, 1px);
+}
